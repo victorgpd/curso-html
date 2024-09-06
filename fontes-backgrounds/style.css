@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body {
+    background-color: #d6fde9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #1e402f;
+}
+
+/*h2#inicio-html {
+    color: crimson;
+}*/
+
+h2 {
+    color: #3c805e;
+}
+
+.aprendendo {
+    color: #1e402f;
+}
+
+.basico {
+    color: tomato;
+}
+
+.intermediario {
+    color: gold;
+}
+
+.avancado {
+    color: cornflowerblue;
+}
+
+.destaque {
+    background-color: yellow;
+}

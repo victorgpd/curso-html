@@ -1,0 +1,53 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Love Story';
+    /* otf opentype */
+    src: url(fonts/love\ story\ ttf.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Chiro';
+    src: url(fonts/Chiro-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Berkshire';
+    src: url(fonts/BerkshireSwash-Regular.ttf) format('truetype');
+}
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, #9AEBA3, #45C4B0, #13678A);
+}
+
+main {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #023047;
+    padding: 20px;
+    width: 600px;
+    margin: auto;
+}
+
+h1 {
+    color: #13678A;
+    text-align: center;
+    font: normal normal 2em 'Love Story', 'Times New Roman', Times, serif;
+}
+
+h2 {
+    color: #049e85;
+    text-shadow: 1px 1px 2px #000000ab;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    /* lighter normal bold bolder */
+    /* - font-style -> font-weight -> font-size -> font-family */
+    font: normal normal 1em 'Berkshire', 'Chiro', sans-serif;
+    text-indent: 20px;
+    color: #0000009f;
+    text-align: justify;
+}

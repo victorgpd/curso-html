@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+div {
+    display: inline-block;
+    background-color: cornflowerblue;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    color: white;
+}
+
+div > p {
+    display: none;
+}
+
+div:hover > p {
+    display: block;
+}
+
+div:hover {
+    background-color: aquamarine;
+}
+
+a {
+    color: crimson;
+    text-decoration: none;
+}
+
+a:active {
+    background-color: yellow;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: slateblue;
+}
+
+a:visited {
+    color: darkmagenta;
+}
+
+a::after {
+    content: '🔗';
+}
