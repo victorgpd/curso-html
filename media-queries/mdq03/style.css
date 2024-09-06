@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;   
+}
+
+h1 {
+    color: white;
+}
+
+@media screen and (orientation: portrait) {
+    body {
+        background: url(../imagens/cev-portrait.jpg) center center no-repeat fixed;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    body {
+        background: url(../imagens/cev-landscape.jpg) center center no-repeat fixed;
+    }
+}
+
