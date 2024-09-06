@@ -17,12 +17,14 @@ h1 {
 @media screen and (orientation: portrait) {
     body {
         background: url(../imagens/cev-portrait.jpg) center center no-repeat fixed;
+        background-size: cover;
     }
 }
 
 @media screen and (orientation: landscape) {
     body {
         background: url(../imagens/cev-landscape.jpg) center center no-repeat fixed;
+        background-size: cover;
     }
 }
 
