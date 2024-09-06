@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 600px) {
+    body {
+        background: url(../imagens/back-phone.jpg) center center no-repeat fixed;
+    }
+
+    #phone {display: block;}
+}
+
+@media screen and (min-width: 600px) and (max-width: 992px) {
+    body {
+        background: url(../imagens/back-tablet.jpg) center center no-repeat fixed;
+    }
+    
+    #tablet {display: block;}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    body {
+        background: url(../imagens/back-pc.jpg) center center no-repeat fixed;
+    }
+
+    #pc { display: block; }
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        background: url(../imagens/back-tv.jpg) center center no-repeat fixed;
+    }
+
+    #tv { display: block; }
+}
