@@ -1,0 +1,38 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    #login {
+        width: 85vw;
+    }
+
+    #imagem {
+        float: left;
+        width: 45%;
+        height: 100%;
+    }
+
+    #formulario {
+        float: right;
+        width: 55%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #login {
+        width: 950px;
+    }
+
+    #imagem {
+        background: #800080 url(../imagens/login-desktop.jpg) center center no-repeat;
+        background-size: cover;
+        float: left;
+        width: 45%;
+        height: 100%;
+    }
+
+    #formulario {
+        float: right;
+        width: 55%;
+    }
+}
