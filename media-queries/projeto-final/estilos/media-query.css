@@ -35,4 +35,11 @@
         float: right;
         width: 55%;
     }
+
+    input[type=submit] {
+        position: relative;
+        width: 40%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }
