@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        
+        .container {
+            background-color: aquamarine;
+            height: 500px;
+
+            display: flex;
+            flex-flow: row wrap;
+            /*
+            -space-between: "Espaço entre os do meio"
+            -space-evenly: "Espaço entre todos"
+            */
+            justify-content: center;
+            /*
+            -stretch: "Estica todos os itens"
+            */
+            align-items: stretch;
+        }
+
+        .item {
+            background-color: antiquewhite;
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">Item de exemplo A</div>
+        <div class="item">Item de exemplo B</div>
+        <div class="item">Item de exemplo C</div>
+        <div class="item">Item de exemplo D</div>
+        <div class="item">Item de exemplo E</div>
+        <div class="item">Item de exemplo G</div>
+    </div>
+</body>
+</html>
