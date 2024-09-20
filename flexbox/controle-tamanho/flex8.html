@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+
+        .container {
+            background-color: aquamarine;
+            height: 100px;
+
+            display: flex;
+            flex-flow: row nowrap;
+            align-content: flex-start;
+            align-items: flex-start;
+        }
+
+        .item {
+            background-color: lightcoral;
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+        }
+
+        #cx1 {
+            /*flex-grow;
+            flex-shrink;
+            flex-basis;*/
+            
+            flex: 1 1 90px;
+        }
+
+        #cx2 {
+            flex: 1 2 90px;
+        }
+
+        #cx3 {
+            flex: 0 1 90px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="cx1">A</div>
+        <div class="item" id="cx2">B</div>
+        <div class="item" id="cx3">C</div>
+    </div>
+</body>
+</html>
