@@ -28,7 +28,7 @@ header {
     align-items: center;
 }
 
-header > button {
+header button {
     background-color: transparent;
     color: white;
     border: none;
@@ -37,7 +37,7 @@ header > button {
     cursor: pointer;
 }
 
-header > button:hover {
+header button:hover {
     background-color: #31b631;
     color: white;
     transition: background-color .7s;
