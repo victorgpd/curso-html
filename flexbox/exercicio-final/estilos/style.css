@@ -28,16 +28,13 @@ header {
     align-items: center;
 }
 
-header button {
-    background-color: transparent;
-    color: white;
-    border: none;
+header > span {
     border-radius: 5px;
-    padding: 5px;
+    padding: 8px;
     cursor: pointer;
 }
 
-header button:hover {
+header > span:hover {
     background-color: #31b631;
     color: white;
     transition: background-color .7s;
