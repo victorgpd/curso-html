@@ -28,13 +28,13 @@ header {
     align-items: center;
 }
 
-header > span {
+header > i {
     border-radius: 5px;
     padding: 8px;
     cursor: pointer;
 }
 
-header > span:hover {
+header > i:hover {
     background-color: #31b631;
     color: white;
     transition: background-color .7s;
