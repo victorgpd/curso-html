@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+html {
+    behavior: smooth;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
@@ -17,6 +21,10 @@ body {
 }
 
 header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
     background-color: #1F1F1F;
     padding: 10px;
     color: white;
@@ -28,13 +36,40 @@ header {
     align-items: center;
 }
 
-header > i {
+#close-burguer {
+    display: none;
+    border-radius: 5px;
+    padding: 10px;
+
+    color: white;
+    font-size: 20px;
+
+    cursor: pointer;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select: none;
+}
+
+#close-burguer:hover {
+    background-color: #31b631;
+    color: white;
+    transition: background-color .7s;
+}
+
+#burguer {
     border-radius: 5px;
     padding: 8px;
     cursor: pointer;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select: none;
 }
 
-header > i:hover {
+#burguer:hover {
     background-color: #31b631;
     color: white;
     transition: background-color .7s;
@@ -66,14 +101,12 @@ header > nav > a:hover {
 }
 
 main {
-    flex: 1 0 auto;
-
-    margin: 25px auto;
+    margin: 85px 0;
     padding: 0px 15px;
 
     display: flex;
     flex-flow: column;
-    justify-content: center;
+    align-items: center;
 }
 
 .container {
@@ -84,19 +117,20 @@ main {
 
     min-width: 260px;
     max-width: 600px;
-
+    
     padding: 15px;
+    margin-bottom: 15px;
 
     border-radius: 10px;
     box-shadow: 2px 2px 3px black;
 }
 
-main > section > h2 {
+.container > h2 {
     text-align: center;
     margin-bottom: 10px;
 }
 
-main > section > p {
+.container > p {
     text-indent: 25px;
     line-height: 1.4;
 }
@@ -108,5 +142,49 @@ footer {
     text-align: center;
     padding: 15px;
     color: black;
-    border: 4px solid #000000;
+}
+
+#menu {
+    display: none;
+
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+
+    top: 6.8%;
+
+    padding-top: 5.3rem;
+    
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+
+    flex-flow: column nowrap;
+    align-items: center;
+    text-align: center;
+}
+
+#menu > h2 {
+    color: #FFA500;
+    font-size: 40px;
+    margin-bottom: 70px;
+}
+
+#menu > nav {
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+}
+
+#menu > nav > a {
+    text-decoration: none;
+    font-size: 33px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#menu > nav > a:hover {
+    color: #FFA500;
+    scale: 1.2;
+    transition: color .5s, scale .6s;
 }

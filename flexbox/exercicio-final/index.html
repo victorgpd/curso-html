@@ -10,7 +10,8 @@
 </head>
 <body>
     <header>
-        <i id="burguer" class="material-symbols-outlined">menu</i>
+        <i id="burguer" class="material-symbols-outlined" onclick="openMenu()">menu</i>
+        <i id="close-burguer" class="fa-solid fa-x" onclick="closeMenu()"></i>
         <h1>Portfólio</h1>
         <nav>
             <a href="#"><span class="fa-brands fa-github"></span></a>
@@ -19,10 +20,37 @@
             <a href="#"><span class="fa-regular fa-envelope"></span></a>
         </nav>
     </header>
-
+    
     <main>
-        <section class="container">
-            <h2>Menu flexivel com flexbox</h2>
+        <section id="sobre" class="container">
+            <h2>Sobre</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi rerum quia aspernatur facere ducimus officia molestias, quas, explicabo, voluptatibus quos reprehenderit adipisci! Perspiciatis mollitia possimus quidem ratione voluptates. Tenetur, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed magnam consequatur ea, suscipit sequi ipsum tenetur. Deleniti vel consequatur ex praesentium sit! Quas non, illum omnis amet saepe maiores eveniet.</p><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi rerum quia aspernatur facere ducimus officia molestias, quas, explicabo, voluptatibus quos reprehenderit adipisci! Perspiciatis mollitia possimus quidem ratione voluptates. Tenetur, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed magnam consequatur ea, suscipit sequi ipsum tenetur. Deleniti vel consequatur ex praesentium sit! Quas non, illum omnis amet saepe maiores eveniet.</p><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi rerum quia aspernatur facere ducimus officia molestias, quas, explicabo, voluptatibus quos reprehenderit adipisci! Perspiciatis mollitia possimus quidem ratione voluptates. Tenetur, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed magnam consequatur ea, suscipit sequi ipsum tenetur. Deleniti vel consequatur ex praesentium sit! Quas non, illum omnis amet saepe maiores eveniet.</p><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi rerum quia aspernatur facere ducimus officia molestias, quas, explicabo, voluptatibus quos reprehenderit adipisci! Perspiciatis mollitia possimus quidem ratione voluptates. Tenetur, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed magnam consequatur ea, suscipit sequi ipsum tenetur. Deleniti vel consequatur ex praesentium sit! Quas non, illum omnis amet saepe maiores eveniet.</p><br>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis quas necessitatibus labore, voluptas libero laboriosam harum minus praesentium cum aliquam omnis hic iure doloribus similique nesciunt impedit atque! Quia, enim.</p>
+        </section>
+
+        <section id="habilidades" class="container">
+            <h2>Habilidades</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi rerum quia aspernatur facere ducimus officia molestias, quas, explicabo, voluptatibus quos reprehenderit adipisci! Perspiciatis mollitia possimus quidem ratione voluptates. Tenetur, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed magnam consequatur ea, suscipit sequi ipsum tenetur. Deleniti vel consequatur ex praesentium sit! Quas non, illum omnis amet saepe maiores eveniet.</p><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi rerum quia aspernatur facere ducimus officia molestias, quas, explicabo, voluptatibus quos reprehenderit adipisci! Perspiciatis mollitia possimus quidem ratione voluptates. Tenetur, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed magnam consequatur ea, suscipit sequi ipsum tenetur. Deleniti vel consequatur ex praesentium sit! Quas non, illum omnis amet saepe maiores eveniet.</p><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi rerum quia aspernatur facere ducimus officia molestias, quas, explicabo, voluptatibus quos reprehenderit adipisci! Perspiciatis mollitia possimus quidem ratione voluptates. Tenetur, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed magnam consequatur ea, suscipit sequi ipsum tenetur. Deleniti vel consequatur ex praesentium sit! Quas non, illum omnis amet saepe maiores eveniet.</p><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi rerum quia aspernatur facere ducimus officia molestias, quas, explicabo, voluptatibus quos reprehenderit adipisci! Perspiciatis mollitia possimus quidem ratione voluptates. Tenetur, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed magnam consequatur ea, suscipit sequi ipsum tenetur. Deleniti vel consequatur ex praesentium sit! Quas non, illum omnis amet saepe maiores eveniet.</p><br>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis quas necessitatibus labore, voluptas libero laboriosam harum minus praesentium cum aliquam omnis hic iure doloribus similique nesciunt impedit atque! Quia, enim.</p>
+        </section>
+
+        <section id="projetos" class="container">
+            <h2>Projetos</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi rerum quia aspernatur facere ducimus officia molestias, quas, explicabo, voluptatibus quos reprehenderit adipisci! Perspiciatis mollitia possimus quidem ratione voluptates. Tenetur, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed magnam consequatur ea, suscipit sequi ipsum tenetur. Deleniti vel consequatur ex praesentium sit! Quas non, illum omnis amet saepe maiores eveniet.</p><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi rerum quia aspernatur facere ducimus officia molestias, quas, explicabo, voluptatibus quos reprehenderit adipisci! Perspiciatis mollitia possimus quidem ratione voluptates. Tenetur, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed magnam consequatur ea, suscipit sequi ipsum tenetur. Deleniti vel consequatur ex praesentium sit! Quas non, illum omnis amet saepe maiores eveniet.</p><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi rerum quia aspernatur facere ducimus officia molestias, quas, explicabo, voluptatibus quos reprehenderit adipisci! Perspiciatis mollitia possimus quidem ratione voluptates. Tenetur, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed magnam consequatur ea, suscipit sequi ipsum tenetur. Deleniti vel consequatur ex praesentium sit! Quas non, illum omnis amet saepe maiores eveniet.</p><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi rerum quia aspernatur facere ducimus officia molestias, quas, explicabo, voluptatibus quos reprehenderit adipisci! Perspiciatis mollitia possimus quidem ratione voluptates. Tenetur, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed magnam consequatur ea, suscipit sequi ipsum tenetur. Deleniti vel consequatur ex praesentium sit! Quas non, illum omnis amet saepe maiores eveniet.</p><br>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis quas necessitatibus labore, voluptas libero laboriosam harum minus praesentium cum aliquam omnis hic iure doloribus similique nesciunt impedit atque! Quia, enim.</p>
+        </section>
+
+        <section id="contato" class="container">
+            <h2>Contato</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi rerum quia aspernatur facere ducimus officia molestias, quas, explicabo, voluptatibus quos reprehenderit adipisci! Perspiciatis mollitia possimus quidem ratione voluptates. Tenetur, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed magnam consequatur ea, suscipit sequi ipsum tenetur. Deleniti vel consequatur ex praesentium sit! Quas non, illum omnis amet saepe maiores eveniet.</p><br>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi rerum quia aspernatur facere ducimus officia molestias, quas, explicabo, voluptatibus quos reprehenderit adipisci! Perspiciatis mollitia possimus quidem ratione voluptates. Tenetur, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed magnam consequatur ea, suscipit sequi ipsum tenetur. Deleniti vel consequatur ex praesentium sit! Quas non, illum omnis amet saepe maiores eveniet.</p><br>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi rerum quia aspernatur facere ducimus officia molestias, quas, explicabo, voluptatibus quos reprehenderit adipisci! Perspiciatis mollitia possimus quidem ratione voluptates. Tenetur, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed magnam consequatur ea, suscipit sequi ipsum tenetur. Deleniti vel consequatur ex praesentium sit! Quas non, illum omnis amet saepe maiores eveniet.</p><br>
@@ -30,11 +58,22 @@
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis quas necessitatibus labore, voluptas libero laboriosam harum minus praesentium cum aliquam omnis hic iure doloribus similique nesciunt impedit atque! Quia, enim.</p>
         </section>
     </main>
-
+    
     <footer>
         <p>Site feito por <strong>Victor Guilherme</strong></p>
     </footer>
-
+    
+    <div id="menu">
+        <h2>Bem-vindo ao meu Portfólio</h2>
+        <nav class="redirec">
+            <a href="#sobre">Sobre</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </div>
+    
     <script src="https://kit.fontawesome.com/32c48775ed.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
