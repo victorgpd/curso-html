@@ -30,3 +30,11 @@ function closeMenu() {
     document.getElementById("close-burguer").style.display = "none"
     document.getElementById("burguer").style.display = "block"
 }
+
+function openPerfils() {
+    if (link.style.display == "none") {
+        link.style.display = "block"
+    } else {
+        link.style.display = "none"
+    }
+}
