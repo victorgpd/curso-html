@@ -14,7 +14,7 @@ body {
     align-items: center;
     justify-content: center;
 
-    background: url(imagens/desktop-light.jpg) center center no-repeat;
+    background: url(imagens/desktop-light.jpg) center center no-repeat fixed;
     background-size: cover;
 
     -webkit-user-select: none;
