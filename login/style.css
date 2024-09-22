@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+
+    background: url(imagens/desktop-light.jpg) center center no-repeat;
+    background-size: cover;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select: none;
+}
+
+main {
+    flex: 1 0 auto;
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    color: #2C2B4E;
+    background-color: #ffffff1a;
+    backdrop-filter: blur(10px);
+
+    width: 700px;
+    height: 430px;
+
+    border-radius: 20px;
+    overflow: hidden;
+
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.proxForm {
+    width: 40%;
+    height: 100%;
+    padding: 20px;
+    background-color: #ffffff42;
+    backdrop-filter: blur(10px);
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+}
+
+.proxForm > h1 {
+    text-align: center;
+    font-size: 1.7em;
+    font-weight: 100;
+}
+
+.proxForm > h2 {
+    font-size: 2em;
+}
+
+.proxForm > button {
+    width: 148px;
+    margin: 0 auto;
+
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 8px 5px 8px rgba(0, 0, 0, 0.4);
+
+    cursor: pointer;
+
+    background-color: #ffffff3b;
+    backdrop-filter: blur(10px);
+    color: #2C2B4E;
+}
+
+.container > button {
+    position: absolute;
+    left: 34%;
+
+    cursor: pointer;
+
+    padding: 15px;
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.container > button > i {
+    font-size: 30px;
+}
+
+.form {
+    width: 65%;
+    height: 100%;
+    padding: 20px;
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.form > h2 {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+form {
+    width: 60%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+form > input {
+    font-size: 14px;
+    padding: 6px;
+    border: none;
+
+    color: black;
+
+    background-color: #ffffffab;
+    backdrop-filter: blur(10px);
+}
+
+form > input[type="text"] {
+    margin-bottom: 20px;
+}
+
+input[type="checkbox"] {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+label {
+    cursor: pointer;
+    color: white;
+}
+ 
+.form > button {
+    width: 40%;
+    border: none;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 50px;
+
+    background-color: #2C2B4E;
+    color: white;
+
+    cursor: pointer;
+}
