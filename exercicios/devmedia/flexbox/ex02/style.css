@@ -46,6 +46,7 @@ main {
 .cards {
     max-width: 300px;
     border-radius: 8px;
+    overflow: hidden;
 
     box-shadow: 1px 1px 10px 1px gray;
 }
@@ -81,4 +82,8 @@ main {
     border-radius: 8px;
     cursor: pointer;
     padding: 5px;
+}
+
+.cards:nth-of-type(odd) {
+    background-color: #3cbd87;
 }
